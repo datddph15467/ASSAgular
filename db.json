@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "position": "Front-end Developer",
+      "about": "ADMIN",
+      "image": "http://res.cloudinary.com/assignment22/image/upload/v1665919635/project-img/xnabyqj7dr2dopltjga5.png",
+      "firstname": "Đình",
+      "lastname": "Đạt",
+      "fb": "https://www.facebook.com/dinhdat280802",
+      "ins": "https://www.instagram.com/du_dinh_dat/",
+      "gmail": "https://github.com/datddph15467"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Blog 1",
+      "createAt": "17/10/2022",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665939750/lty4vgrp1t0mibg4fe0l.jpg",
+      "categoryPostId": 0,
+      "short_desc": "Abc",
+      "description": "Cảm ơn",
+      "id": 4
+    },
+    {
+      "title": "Blog2 ",
+      "createAt": "17/10/2022",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665939958/o5ukpb8anexrfuom97ch.jpg",
+      "categoryPostId": 0,
+      "short_desc": "admin",
+      "description": "Cảm ơn",
+      "id": 5
+    },
+    {
+      "title": "Blog 3",
+      "createAt": "17/10/2022",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665939988/go6q8f6385zmwimrchka.jpg",
+      "categoryPostId": 0,
+      "short_desc": "admin",
+      "description": "đây là blog 3",
+      "id": 6
+    },
+    {
+      "title": "Đây là blog 4",
+      "createAt": "17/10/2022",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665940164/jv64oh5fsvnjnukk6uiw.jpg",
+      "categoryPostId": 0,
+      "short_desc": "admin",
+      "description": "đây là blog 4",
+      "id": 7
+    }
+  ],
+  "categoriesPosts": [
+    {
+      "id": 1,
+      "name": "post2"
+    },
+    {
+      "id": 2,
+      "name": "product 2"
+    },
+    {
+      "id": 3,
+      "name": "product 3"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nho xanh không hạt Pandol Mỹ",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665946699/cxdq1p7f0aqrazpyvvjf.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Mã sản phẩm: 20003",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 1,
+      "price": "29"
+    },
+    {
+      "name": "Táo Envy New size 72",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665946733/dcvyvlkhrbpr3ryvnklq.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Mã sản phẩm: 10219",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 2,
+      "price": "50"
+    },
+    {
+      "name": "DƯA HẤU",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665946795/aafumrnfgmqxit2yk3u5.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Mã sản phẩm: 10014",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 3,
+      "price": "50"
+    },
+    {
+      "name": "Miến Organic Hàn Quốc",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665946839/shqd2e14wjaxwhvjmknm.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Mã sản phẩm: MOHQ",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 4,
+      "price": "60"
+    },
+    {
+      "name": "Rong biển lá kim vụn rắc ăn liền Miso túi 50g",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665947133/ila1t9c5n4bbztsuovql.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Mã sản phẩm: RB1",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 6,
+      "price": "46"
+    },
+    {
+      "name": "GIỎ QUẢ 01",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665946934/itl3tnxdfycq8o73x9r1.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Táo,nho,dưa hấu",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.\n\n",
+      "id": 7,
+      "price": "33"
+    },
+    {
+      "name": "CAM SÀNH",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665946998/cmnnymj4gro4hd6dgeah.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Mã sản phẩm: 11321",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 8,
+      "price": "46"
+    },
+    {
+      "name": "SỮA HOA QUẢ",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665947046/fqivtbub2dqxtll5uw0r.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "Mã sản phẩm: 20005",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 9,
+      "price": "47"
+    },
+    {
+      "name": "Rong Biển cuộn cơm ăn liền Miso túi 20g\t",
+      "image": "http://res.cloudinary.com/bee-design/image/upload/v1665947219/e2hu0i6cvs7hmcvgttfi.jpg",
+      "createAt": "2022",
+      "categoryProjectId": 0,
+      "shortDesc": "RB",
+      "desc": "- Với mỗi 100.000đ trong đơn hàng, quý khách được tặng 1 điểm vào thẻ khách hàng\n\n- Quý khách tích lũy đủ 50 điểm sẽ nhận được 01 Voucher trị giá 50.000đ để trừ vào giá trị đơn hàng khi mua hàng. Voucher được áp dụng trên toàn bộ các cửa hàng và không quan trọng ai là người sử dụng.",
+      "id": 10,
+      "price": "50"
+    }
+  ],
+  "categoriesProjects": [
+    {
+      "name": "HOA QUẢ",
+      "id": 1
+    },
+    {
+      "name": "GIỎ QUÀ",
+      "id": 2
+    },
+    {
+      "name": "SẢN PHẨM KHÁC",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<header class="bg-white">
+  <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between">
+    <h1 class="text-3xl font-bold text-gray-900">
+        SẢN PHẨM
+    </h1>
+    <a routerLink="add" class="sm:ml-3">
+  <button type="button" class="btn btn-outline-info">
+    THÊM SẢN PHẨM
+  </button>
+</a>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="bg-image h-100" style="background-color: #6095F0;">
+    <div class="mask d-flex align-items-center h-100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="card shadow-2-strong" style="background-color: #f5f7fa;">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-borderless mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">IMAGE</th>
+                        <th scope="col">DATE</th>
+                        <th scope="col">DESCRIPTION</th>
+                        <th scope="col">SHORT DEST</th>
+                        <th scope="col">CATE</th>
+                        <th scope="col">ACTION</th>
+                      </tr>
+                    </thead>
+                    <tbody *ngFor="let project of projects ; let i = index">
+                      <tr>
+                        <td>{{ project.id }}</td>
+                        <td>{{ project.name }}</td>
+                        <td><img src={{project.image}} alt="" style="width: 50px;"></td>
+                        <td>{{ project.createAt }}</td>
+                        <td>{{ project.desc.slice(0, 35)}}</td>
+                        <td>{{ project.shortDesc.slice(0, 50) }}</td>
+                        <td>{{ project.categoryProjectId }}</td>
+                        <td>
+                          <button class="btn btn-outline-dark mr-2" routerLink="{{ project.id }}"><i class="fa fa-pencil"
+                              aria-hidden="true"></i></button>
+                          <button class="btn btn-danger text-white" (click)="onRemove(project.id)"><i class="fa fa-times"
+                              aria-hidden="true"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

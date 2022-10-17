@@ -1,0 +1,51 @@
+
+    <app-header></app-header>
+    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg"
+        style="background-image: url(&quot;https://res.cloudinary.com/bee-design/image/upload/v1665941697/breadcrumb_xhb6ek.jpg&quot;);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Blog</h2>
+                        <div class="breadcrumb__option">
+                            <a href="./index.html">Home</a>
+                            <span>Blog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog spad">
+    <div class="col-lg-12 col-md-12 container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4" *ngFor="let post of Posts">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="{{post.image}}" alt="">
+                    </div>
+                    <div class="blog__item__text">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i> {{post.createAt}}</li>
+                            <li><i class="fa fa-comment-o"></i> 5</li>
+                        </ul>
+                        <h5><a href="#">{{post.short_desc}}</a></h5>
+                        <p>{{post.description}} </p>
+                        <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="product__pagination blog__pagination">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <app-footer></app-footer>
+

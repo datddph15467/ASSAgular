@@ -1,0 +1,36 @@
+<button class="btn btn-info" routerLink="/admin/post">Return</button>
+<form  (ngSubmit)="onSubmitPost()" class="p-5">
+
+    <div class="mb-3">
+      <label>Title</label>
+      <input type="text" class="form-control" [(ngModel)]="post.title" name="title" >
+    </div>
+    <div class="mb-3">
+      <label>Mô tả ngắn</label>
+      <div class="flex text-sm text-gray-600 pt-2" [(ngModel)]="post.image">
+        <input id="file-upload" (change)="uploadImg($event)" type="file">
+      </div>
+    </div>
+
+    <label>Category</label><br>
+     <div  [(ngModel)]="post.categoryPostId" class="mb-3"> 
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Danh mục</option>
+      <option value="1" *ngFor="let cate of categorys" value={{cate.id}}>{{cate.name}}</option>
+    </select>
+  </div>  
+
+    <div class="mb-3">
+        <label>Mô tả ngắn</label>
+        <input type="text" class="form-control" [(ngModel)]="post.short_desc" name="short_desc">
+    </div>
+
+
+    <div class="mb-3">
+        <label>Mô tả</label>
+        <textarea class="form-control"[(ngModel)]="post.description" name="description" id="" cols="30" rows="10"></textarea>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+  </form>

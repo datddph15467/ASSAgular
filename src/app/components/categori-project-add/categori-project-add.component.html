@@ -1,0 +1,9 @@
+<button class="btn btn-info" routerLink="/admin/cat_project">Return</button>
+<form class="p-5" (ngSubmit)="onSubmit()">
+
+    <div class="mb-3" >
+      <label>TÊN</label>
+      <input type="text" class="form-control" name="name" [(ngModel)]="project.name">
+    </div>
+    <button type="submit" class="btn btn-primary">THÊM DANH MỤC</button>
+  </form>
